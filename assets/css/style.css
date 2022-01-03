@@ -650,7 +650,8 @@ footer {
   position: relative; }
   @media (max-width: 1250px) {
     .features-bg {
-      margin-top: -340px; } }
+      margin-top: -340px;
+      z-index: 100; } }
   @media (max-width: 576px) {
     .features-bg {
       display: none; } }
@@ -1094,3 +1095,6 @@ footer {
     fill: #E34033; }
   .footer__social .facebook:hover svg {
     fill: #385599; }
+
+@media (min-width: 1800px) {
+  .parallax-deer {margin-bottom: 45px};
